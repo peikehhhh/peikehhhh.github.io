@@ -96,18 +96,18 @@
 
 
 
-  <meta name="description" content="#题意：队里没有小姐姐，所以学长们都快抢不到饭了。2333，有几位优秀的学长为了其他学长有饭吃，毅然选择女装.所以大部分学长吃上了饭，而学弟们也有小姐姐了2333N-1位小姐姐来自除长春之外N-1座不同的城市，加上长春,一共N座城市。一共有M条单向道路连接着这N座城市。询问每个小姐姐从家中来到长春，再从长春回到各自家中的最短路径和是多少。">
-<meta name="keywords" content="最短路">
+  <meta name="description" content="#题解：有n台电脑，然后给出n台电脑的坐标，之后有q次操作（包括修复和询问），如果电脑 A 和电脑 B 可以直接通信，或存在一台电脑 C 既可与 A 也可与 B 通信，那么电脑 A 和电脑 B 之间就能够通信。">
+<meta name="keywords" content="并查集">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Invitation Cards （POJ 1511）">
-<meta property="og:url" content="http://www.acmnightmare.com/2019/06/17/Invitation Cards（POJ 1511）/index.html">
+<meta property="og:title" content="Wireless Network（POJ - 2236）">
+<meta property="og:url" content="http://www.acmnightmare.com/2019/06/17/Wireless Network（POJ - 2236）/index.html">
 <meta property="og:site_name" content="Nightmare">
-<meta property="og:description" content="#题意：队里没有小姐姐，所以学长们都快抢不到饭了。2333，有几位优秀的学长为了其他学长有饭吃，毅然选择女装.所以大部分学长吃上了饭，而学弟们也有小姐姐了2333N-1位小姐姐来自除长春之外N-1座不同的城市，加上长春,一共N座城市。一共有M条单向道路连接着这N座城市。询问每个小姐姐从家中来到长春，再从长春回到各自家中的最短路径和是多少。">
+<meta property="og:description" content="#题解：有n台电脑，然后给出n台电脑的坐标，之后有q次操作（包括修复和询问），如果电脑 A 和电脑 B 可以直接通信，或存在一台电脑 C 既可与 A 也可与 B 通信，那么电脑 A 和电脑 B 之间就能够通信。">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-06-17T11:14:44.222Z">
+<meta property="og:updated_time" content="2019-06-17T14:32:19.466Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Invitation Cards （POJ 1511）">
-<meta name="twitter:description" content="#题意：队里没有小姐姐，所以学长们都快抢不到饭了。2333，有几位优秀的学长为了其他学长有饭吃，毅然选择女装.所以大部分学长吃上了饭，而学弟们也有小姐姐了2333N-1位小姐姐来自除长春之外N-1座不同的城市，加上长春,一共N座城市。一共有M条单向道路连接着这N座城市。询问每个小姐姐从家中来到长春，再从长春回到各自家中的最短路径和是多少。">
+<meta name="twitter:title" content="Wireless Network（POJ - 2236）">
+<meta name="twitter:description" content="#题解：有n台电脑，然后给出n台电脑的坐标，之后有q次操作（包括修复和询问），如果电脑 A 和电脑 B 可以直接通信，或存在一台电脑 C 既可与 A 也可与 B 通信，那么电脑 A 和电脑 B 之间就能够通信。">
 
 
 
@@ -115,7 +115,7 @@
 
   
   
-  <link rel="canonical" href="http://www.acmnightmare.com/2019/06/17/Invitation Cards（POJ 1511）/">
+  <link rel="canonical" href="http://www.acmnightmare.com/2019/06/17/Wireless Network（POJ - 2236）/">
 
 
 
@@ -125,7 +125,7 @@
   };
 </script>
 
-  <title>Invitation Cards （POJ 1511） | Nightmare</title>
+  <title>Wireless Network（POJ - 2236） | Nightmare</title>
   
 
 
@@ -341,7 +341,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://www.acmnightmare.com/2019/06/17/Invitation Cards（POJ 1511）/">
+    <link itemprop="mainEntityOfPage" href="http://www.acmnightmare.com/2019/06/17/Wireless Network（POJ - 2236）/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="acm_zrx">
@@ -358,7 +358,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">Invitation Cards （POJ 1511）
+          <h1 class="post-title" itemprop="name headline">Wireless Network（POJ - 2236）
 
               
             
@@ -384,7 +384,7 @@
                 
               
 
-              <time title="创建时间：2019-06-17 16:54:47 / 修改时间：19:14:44" itemprop="dateCreated datePublished" datetime="2019-06-17T16:54:47+08:00">2019-06-17</time>
+              <time title="创建时间：2019-06-17 22:32:13 / 修改时间：22:32:19" itemprop="dateCreated datePublished" datetime="2019-06-17T22:32:13+08:00">2019-06-17</time>
             
 
             
@@ -423,12 +423,11 @@
       
 
       
-        <p>#题意：队里没有小姐姐，所以学长们都快抢不到饭了。2333，有几位优秀的学长为了其他学长有饭吃，毅然选择女装.所以大部分学长吃上了饭，而学弟们也有小姐姐了2333<br>N-1位小姐姐来自除长春之外N-1座不同的城市，加上长春,一共N座城市。一共有M条单向道路连接着这N座城市。询问每个小姐姐从家中来到长春，再从长春回到各自家中的最短路径和是多少。</p>
+        <p>#题解：有n台电脑，然后给出n台电脑的坐标，之后有q次操作（包括修复和询问），如果电脑 A 和电脑 B 可以直接通信，或存在一台电脑 C 既可与 A 也可与 B 通信，那么电脑 A 和电脑 B 之间就能够通信。</p>
 <a id="more"></a>
-
-<p>#分析：题目求每个除长春点1外的每个点到1的最短距离，以及从长春到2~N的点的最短距离之和，最大不超过long long，我们只需要用邻接表存储反向边，两次spfa求最短路即可。</p>
-<p>#代码：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br></pre></td><td class="code"><pre><span class="line">#include&lt;iostream&gt;</span><br><span class="line">#include&lt;cstring&gt;</span><br><span class="line">#include&lt;queue&gt;</span><br><span class="line">#include&lt;cstdio&gt;</span><br><span class="line">using namespace std;</span><br><span class="line">typedef long long ll;</span><br><span class="line">const double eps=1e-9;</span><br><span class="line">#define inf 0x3f3f3f3f</span><br><span class="line">#define PI acos(-1)</span><br><span class="line">#define MAX 1000010</span><br><span class="line">struct node&#123;</span><br><span class="line">	int v,w,next;</span><br><span class="line">&#125;edge1[MAX*10],edge2[MAX*10];</span><br><span class="line"></span><br><span class="line">int head1[MAX],head2[MAX];</span><br><span class="line">ll dis[MAX];</span><br><span class="line">bool vis[MAX];</span><br><span class="line">int n,m,T,cnt;</span><br><span class="line"></span><br><span class="line">void add(node *edge,int *head,int u,int v,int w)&#123;</span><br><span class="line">	edge[cnt].v = v;</span><br><span class="line">	edge[cnt].w = w;</span><br><span class="line">	edge[cnt].next=head[u];</span><br><span class="line">	head[u]=cnt;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">ll spfa(node *edge,int *head,int u)&#123;</span><br><span class="line">	memset(vis,0,sizeof(vis));</span><br><span class="line">	for(int i=1;i&lt;=n;i++)&#123;</span><br><span class="line">		dis[i]=inf;</span><br><span class="line">	&#125;</span><br><span class="line">	dis[u]=0;</span><br><span class="line">	queue&lt;int &gt; q;</span><br><span class="line">	q.push(u);</span><br><span class="line">	while(!q.empty())&#123;</span><br><span class="line">		u = q.front();</span><br><span class="line">		q.pop();</span><br><span class="line">		vis[u]=0;</span><br><span class="line">		for(int i=head[u];i!=-1;i=edge[i].next)&#123;</span><br><span class="line">			int v=edge[i].v;</span><br><span class="line">			int w=edge[i].w;</span><br><span class="line">			if(dis[v]&gt;dis[u]+w)&#123;</span><br><span class="line">				dis[v]=dis[u]+w;</span><br><span class="line">				if(vis[v]==0)&#123;</span><br><span class="line">					vis[v]=1;</span><br><span class="line">					q.push(v);</span><br><span class="line">				&#125;</span><br><span class="line">			&#125;</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">	ll ans=0;</span><br><span class="line">	for(int i=2;i&lt;=n;i++)&#123;</span><br><span class="line">		ans += dis[i];</span><br><span class="line">	&#125;</span><br><span class="line">	return ans;</span><br><span class="line">&#125;</span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">	scanf(&quot;%d&quot;,&amp;T);</span><br><span class="line">	while(T--)&#123;</span><br><span class="line">		scanf(&quot;%d%d&quot;,&amp;n,&amp;m);</span><br><span class="line">		cnt=0;</span><br><span class="line">		memset(head1,-1,sizeof(head1));</span><br><span class="line">		memset(head2,-1,sizeof(head2));</span><br><span class="line">		while(m--)&#123;</span><br><span class="line">			int u,v,w;</span><br><span class="line">			scanf(&quot;%d%d%d&quot;,&amp;u,&amp;v,&amp;w);</span><br><span class="line">			add(edge1,head1,u,v,w);</span><br><span class="line">			add(edge2,head2,v,u,w);</span><br><span class="line">			cnt++;</span><br><span class="line">		&#125;</span><br><span class="line">		printf(&quot;%lld\n&quot;,spfa(edge1,head1,1)+spfa(edge2,head2,1));</span><br><span class="line">	&#125;</span><br><span class="line">	return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>分析：典型的并查集的题目，加入看距离才能相互通信的约束，稍微更改就能AC</p>
+<p>代码：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br></pre></td><td class="code"><pre><span class="line">#include&lt;cstring&gt;</span><br><span class="line">#include&lt;cmath&gt;</span><br><span class="line">#include&lt;cstdio&gt;</span><br><span class="line">#include&lt;algorithm&gt;</span><br><span class="line">#include&lt;iostream&gt;</span><br><span class="line">using namespace std;</span><br><span class="line">struct point&#123;</span><br><span class="line">    int x,y;</span><br><span class="line">&#125;;</span><br><span class="line">int pre[1005]=&#123;0&#125;;</span><br><span class="line">int n;</span><br><span class="line">double d;</span><br><span class="line">bool check(int x1,int y1,int x2,int y2)</span><br><span class="line">&#123;</span><br><span class="line">    double dis=sqrt((x1-x2)*(x1-x2)+(y1-y2)*(y1-y2));</span><br><span class="line">    if(dis&lt;=d)</span><br><span class="line">        return 1;</span><br><span class="line">    else</span><br><span class="line">        return 0;</span><br><span class="line">&#125;</span><br><span class="line">int fin(int x)</span><br><span class="line">&#123;</span><br><span class="line">    if(pre[x]!=x)</span><br><span class="line">        pre[x]=fin(pre[x]);</span><br><span class="line">    return pre[x];</span><br><span class="line">&#125;</span><br><span class="line">void unite(int a,int b)</span><br><span class="line">&#123;</span><br><span class="line">    int x=fin(a);</span><br><span class="line">    int y=fin(b);</span><br><span class="line">    if(x!=y)</span><br><span class="line">    &#123;</span><br><span class="line">        pre[x]=y;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line">/*int init()</span><br><span class="line">&#123;</span><br><span class="line">    for(int i=0;i&lt;1005;i++)</span><br><span class="line">        pre[i]=0;</span><br><span class="line">&#125;*/</span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">    point pos[1005];</span><br><span class="line">    cin&gt;&gt;n&gt;&gt;d;</span><br><span class="line">    memset(pre,0,sizeof(pre));</span><br><span class="line">    //init();</span><br><span class="line">    for(int i=1;i&lt;=n;i++)</span><br><span class="line">    &#123;</span><br><span class="line">        cin&gt;&gt;pos[i].x&gt;&gt;pos[i].y;</span><br><span class="line">    &#125;</span><br><span class="line">    char temp;</span><br><span class="line">    while(cin&gt;&gt;temp)</span><br><span class="line">    &#123;</span><br><span class="line">        if(temp==&apos;O&apos;)</span><br><span class="line">        &#123;</span><br><span class="line">            int num;</span><br><span class="line">            cin&gt;&gt;num;</span><br><span class="line">            pre[num]=num;</span><br><span class="line">            for(int i=1;i&lt;=n;i++)</span><br><span class="line">            &#123;</span><br><span class="line">                if(i==num) continue;</span><br><span class="line">                if(check(pos[i].x,pos[i].y,pos[num].x,pos[num].y)==1 &amp;&amp; pre[i]!=0)</span><br><span class="line">                &#123;</span><br><span class="line">                    unite(i,num);</span><br><span class="line">                &#125;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        else if(temp==&apos;S&apos;)</span><br><span class="line">        &#123;</span><br><span class="line">            int a,b;</span><br><span class="line">            cin&gt;&gt;a&gt;&gt;b;</span><br><span class="line">            int x=fin(a);</span><br><span class="line">            int y=fin(b);</span><br><span class="line">            if(x==y)</span><br><span class="line">                cout&lt;&lt;&quot;SUCCESS&quot;&lt;&lt;endl;</span><br><span class="line">            else</span><br><span class="line">                cout&lt;&lt;&quot;FAIL&quot;&lt;&lt;endl;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
       
     </div>
 
@@ -454,7 +453,7 @@
         
         <div class="post-tags">
           
-            <a href="/tags/最短路/" rel="tag"># 最短路</a>
+            <a href="/tags/并查集/" rel="tag"># 并查集</a>
           
         </div>
       
@@ -467,8 +466,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2019/06/17/Currency Exchange （POJ 1860）/" rel="next" title="Currency Exchange (POJ 1860)">
-                <i class="fa fa-chevron-left"></i> Currency Exchange (POJ 1860)
+              <a href="/2019/06/17/Candies (POJ - 3159)/" rel="next" title="Candies （POJ - 3159 ）">
+                <i class="fa fa-chevron-left"></i> Candies （POJ - 3159 ）
               </a>
             
           </div>
@@ -476,10 +475,6 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2019/06/17/MPI Maelstrom （POJ - 1502）/" rel="prev" title="MPI Maelstrom （POJ - 1502）">
-                MPI Maelstrom （POJ - 1502） <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
