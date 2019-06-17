@@ -1109,7 +1109,6 @@ pre .javascript .function {
   color: #fff;
   background: #222;
   border-bottom: none;
-  color: #1e90ff !important;
 }
 .brand:hover {
   color: #fff;
@@ -1205,7 +1204,7 @@ pre .javascript .function {
   transition-duration: 0.2s;
   transition-timing-function: ease-in-out;
   transition-delay: 0s;
-  color: #1e90ff !important;
+  color: #000 !important;
 }
 .menu .menu-item a:hover,
 .menu .menu-item span.exturl:hover {
@@ -1766,7 +1765,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #59ec6e;
+  background: #85677c;
 }
 .feed-link,
 .chat {
