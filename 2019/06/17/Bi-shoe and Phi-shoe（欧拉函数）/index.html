@@ -96,13 +96,17 @@
 
 
 
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Nightmare">
-<meta property="og:url" content="http://www.acmnightmare.com/index.html">
+  <meta name="description" content="题意：给你一些数num[i]（num[i]为第i个数的欧拉函数的值 ），找出数x，x的欧拉函数值大于等于num[i]。解题思路：要求和sum最小，仅需保证每个数x都是满足要求的最小数即可，对于欧拉函数，我们知道，当p是素数时，Φ(p) = p-1，所以我们可以知道最小的数x就是最接近且大于Φ(p)的素数 欧拉函数的性质：(1)   p^k型欧拉函数:若N是质数p(即N=p), φ(n)= φ(p)">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Bi-shoe and Phi-shoe（欧拉函数）">
+<meta property="og:url" content="http://www.acmnightmare.com/2019/06/17/Bi-shoe and Phi-shoe（欧拉函数）/index.html">
 <meta property="og:site_name" content="Nightmare">
+<meta property="og:description" content="题意：给你一些数num[i]（num[i]为第i个数的欧拉函数的值 ），找出数x，x的欧拉函数值大于等于num[i]。解题思路：要求和sum最小，仅需保证每个数x都是满足要求的最小数即可，对于欧拉函数，我们知道，当p是素数时，Φ(p) = p-1，所以我们可以知道最小的数x就是最接近且大于Φ(p)的素数 欧拉函数的性质：(1)   p^k型欧拉函数:若N是质数p(即N=p), φ(n)= φ(p)">
 <meta property="og:locale" content="zh-CN">
+<meta property="og:updated_time" content="2019-06-17T08:28:03.543Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Nightmare">
+<meta name="twitter:title" content="Bi-shoe and Phi-shoe（欧拉函数）">
+<meta name="twitter:description" content="题意：给你一些数num[i]（num[i]为第i个数的欧拉函数的值 ），找出数x，x的欧拉函数值大于等于num[i]。解题思路：要求和sum最小，仅需保证每个数x都是满足要求的最小数即可，对于欧拉函数，我们知道，当p是素数时，Φ(p) = p-1，所以我们可以知道最小的数x就是最接近且大于Φ(p)的素数 欧拉函数的性质：(1)   p^k型欧拉函数:若N是质数p(即N=p), φ(n)= φ(p)">
 
 
 
@@ -110,7 +114,7 @@
 
   
   
-  <link rel="canonical" href="http://www.acmnightmare.com/">
+  <link rel="canonical" href="http://www.acmnightmare.com/2019/06/17/Bi-shoe and Phi-shoe（欧拉函数）/">
 
 
 
@@ -120,7 +124,7 @@
   };
 </script>
 
-  <title>Nightmare</title>
+  <title>Bi-shoe and Phi-shoe（欧拉函数） | Nightmare</title>
   
 
 
@@ -168,8 +172,7 @@
     
   
 
-  <div class="container sidebar-position-left 
-  page-home">
+  <div class="container sidebar-position-left page-post-detail">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -207,7 +210,7 @@
         
         
           
-          <li class="menu-item menu-item-home menu-item-active">
+          <li class="menu-item menu-item-home">
 
     
     
@@ -269,9 +272,9 @@
           
           <div id="content" class="content">
             
-  <section id="posts" class="posts-expand">
+
+  <div id="posts" class="posts-expand">
     
-      
 
   
 
@@ -303,10 +306,8 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">
-                
-                
-                <a href="/2019/06/17/Bi-shoe and Phi-shoe（欧拉函数）/" class="post-title-link" itemprop="url">Bi-shoe and Phi-shoe（欧拉函数）</a>
+          <h1 class="post-title" itemprop="name headline">Bi-shoe and Phi-shoe（欧拉函数）
+
               
             
           </h1>
@@ -370,14 +371,10 @@
       
 
       
-        
-          
-            <h1 id="题意：给你一些数num-i-（num-i-为第i个数的欧拉函数的值-），找出数x，x的欧拉函数值大于等于num-i-。"><a href="#题意：给你一些数num-i-（num-i-为第i个数的欧拉函数的值-），找出数x，x的欧拉函数值大于等于num-i-。" class="headerlink" title="题意：给你一些数num[i]（num[i]为第i个数的欧拉函数的值 ），找出数x，x的欧拉函数值大于等于num[i]。"></a>题意：给你一些数num[i]（num[i]为第i个数的欧拉函数的值 ），找出数x，x的欧拉函数值大于等于num[i]。</h1><p>解题思路：要求和sum最小，仅需保证每个数x都是满足要求的最小数即可，对于欧拉函数，我们知道，当p是素数时，Φ(p) = p-1，所以我们可以知道最小的数x就是最接近且大于Φ(p)的素数</p>
+        <h1 id="题意：给你一些数num-i-（num-i-为第i个数的欧拉函数的值-），找出数x，x的欧拉函数值大于等于num-i-。"><a href="#题意：给你一些数num-i-（num-i-为第i个数的欧拉函数的值-），找出数x，x的欧拉函数值大于等于num-i-。" class="headerlink" title="题意：给你一些数num[i]（num[i]为第i个数的欧拉函数的值 ），找出数x，x的欧拉函数值大于等于num[i]。"></a>题意：给你一些数num[i]（num[i]为第i个数的欧拉函数的值 ），找出数x，x的欧拉函数值大于等于num[i]。</h1><p>解题思路：要求和sum最小，仅需保证每个数x都是满足要求的最小数即可，对于欧拉函数，我们知道，当p是素数时，Φ(p) = p-1，所以我们可以知道最小的数x就是最接近且大于Φ(p)的素数</p>
 <p>欧拉函数的性质：<br>(1)   p^k型欧拉函数:<br>若N是质数p(即N=p), φ(n)= φ(p)=p-p^(k-1)=p-1。<br>若N是质数p的k次幂(即N=p^k)，φ(n)=p^k-p^(k-1)=(p-1)p^(k-1)。<br>(2)mn型欧拉函数<br>设n为正整数，以φ(n)表示不超过n且与n互素的正整数的个数，称为n的欧拉函数值。若m,n互质，φ(mn)=(m-1)(n-1)=φ(m)φ(n)。<br>(3)特殊性质:<br>若n为奇数时，φ(2n)=φ(n)。<br>对于任何两个互质 的正整数a,n(n&gt;2)有:a^φ(n)=1 mod n (恒等于)此公式即 欧拉定理</p>
 <p>我们可以将题中 [1, 106]的素数，打表记录一次即可</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br></pre></td><td class="code"><pre><span class="line">#include &lt;bits/stdc++.h&gt;</span><br><span class="line">using namespace std;</span><br><span class="line">typedef long long ll;</span><br><span class="line">const double eps=1e-9;</span><br><span class="line">#define pr(A) printf(&quot;%d\n&quot;,A)</span><br><span class="line">#define sc(N) scanf(&quot;%d&quot;,&amp;(N))</span><br><span class="line">#define SII(N,M) scanf(&quot;%d%d&quot;,&amp;(N),&amp;(M))</span><br><span class="line">#define cle(a,val) memset(a,(val),sizeof(a))</span><br><span class="line">#define rep(i,a,b) for(int i=(a);i&lt;=(b);i++)</span><br><span class="line">#define Rep(i,a,b) for(int i=(a);i&gt;=(b);i--)</span><br><span class="line">#define inf 0x3f3f3f3f</span><br><span class="line">#define PI acos(-1)</span><br><span class="line">const int Max=1000005;</span><br><span class="line">int s[10005];</span><br><span class="line">int prime[Max];</span><br><span class="line">bool check[Max+5];</span><br><span class="line">int sieve(int n)&#123;</span><br><span class="line">	int k=0;</span><br><span class="line">	rep(i,0,n)&#123;</span><br><span class="line">		check[i]=1;</span><br><span class="line">	&#125;</span><br><span class="line">	check[0]=check[1]=0;</span><br><span class="line">	rep(i,2,n)&#123;</span><br><span class="line">		if(check[i])&#123;</span><br><span class="line">			prime[k++]=i;</span><br><span class="line">			for(int j=i*2;j&lt;=n;j+=i)</span><br><span class="line">				check[j]=0;</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">	return k;</span><br><span class="line">&#125;</span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">//	int k = sieve(Max);</span><br><span class="line">//	rep(i,0,200)&#123;</span><br><span class="line">//		pr(prime[i]);</span><br><span class="line">//	&#125;</span><br><span class="line">	int T;</span><br><span class="line">	int cnt=0;</span><br><span class="line">	int k = sieve(Max);</span><br><span class="line">	sc(T);</span><br><span class="line">	while(T--)&#123;</span><br><span class="line">		int n;</span><br><span class="line">		sc(n);</span><br><span class="line">		ll ans=0;</span><br><span class="line">		rep(i,0,n-1)&#123;</span><br><span class="line">			int num;</span><br><span class="line">			sc(num);</span><br><span class="line">			ans += *lower_bound(prime,prime+k,num+1);</span><br><span class="line">		&#125;</span><br><span class="line">		printf(&quot;Case %d: %lld Xukha\n&quot;,++cnt,ans);</span><br><span class="line">	&#125;</span><br><span class="line">	return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-          
-        
       
     </div>
 
@@ -400,12 +397,12 @@
       
 
       
+      
+      
 
       
 
       
-      
-        <div class="post-eof"></div>
       
     </footer>
   </div>
@@ -415,14 +412,15 @@
   </article>
 
 
-    
-  </section>
-
-  
+  </div>
 
 
           </div>
           
+
+  
+
+
 
         </div>
         
@@ -442,8 +440,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <div class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <div class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -489,6 +496,23 @@
         </div>
       </div>
 
+      
+      <!--noindex-->
+        <div class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+            
+            
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#题意：给你一些数num-i-（num-i-为第i个数的欧拉函数的值-），找出数x，x的欧拉函数值大于等于num-i-。"><span class="nav-number">1.</span> <span class="nav-text">题意：给你一些数num[i]（num[i]为第i个数的欧拉函数的值 ），找出数x，x的欧拉函数值大于等于num[i]。</span></a></li></ol></div>
+            
+
+          </div>
+        </div>
+      <!--/noindex-->
       
 
       
@@ -617,6 +641,10 @@
 
 
   
+  <script src="/js/scrollspy.js?v=7.1.2"></script>
+<script src="/js/post-details.js?v=7.1.2"></script>
+
+
 
   
 
@@ -632,6 +660,8 @@
 
   
 
+
+  
 
 
   
