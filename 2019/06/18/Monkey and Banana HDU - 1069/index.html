@@ -96,18 +96,18 @@
 
 
 
-  <meta name="description" content="#题解：有n台电脑，然后给出n台电脑的坐标，之后有q次操作（包括修复和询问），如果电脑 A 和电脑 B 可以直接通信，或存在一台电脑 C 既可与 A 也可与 B 通信，那么电脑 A 和电脑 B 之间就能够通信。">
-<meta name="keywords" content="并查集">
+  <meta name="description" content="#题解：研究人员有n种类型的砖块，每种类型的砖块都有无限个。第i块砖块的长宽高分别用xi，yi，zi来表示。 同时，由于砖块是可以旋转的，每个砖块的3条边可以组成6种不同的长宽高。 在构建塔时，当且仅当A砖块的长和宽都分别小于B砖块的长和宽时，A砖块才能放到B砖块的上面，因为必须留有一些空间让猴子来踩。 你的任务是编写一个程序，计算猴子们最高可以堆出的砖块们的高度。">
+<meta name="keywords" content="基础dp">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Wireless Network（POJ - 2236）">
-<meta property="og:url" content="http://www.acmnightmare.com/2019/06/17/Wireless Network（POJ - 2236）/index.html">
+<meta property="og:title" content="Monkey and Banana（HDU - 1069）">
+<meta property="og:url" content="http://www.acmnightmare.com/2019/06/18/Monkey and Banana HDU - 1069/index.html">
 <meta property="og:site_name" content="Nightmare">
-<meta property="og:description" content="#题解：有n台电脑，然后给出n台电脑的坐标，之后有q次操作（包括修复和询问），如果电脑 A 和电脑 B 可以直接通信，或存在一台电脑 C 既可与 A 也可与 B 通信，那么电脑 A 和电脑 B 之间就能够通信。">
+<meta property="og:description" content="#题解：研究人员有n种类型的砖块，每种类型的砖块都有无限个。第i块砖块的长宽高分别用xi，yi，zi来表示。 同时，由于砖块是可以旋转的，每个砖块的3条边可以组成6种不同的长宽高。 在构建塔时，当且仅当A砖块的长和宽都分别小于B砖块的长和宽时，A砖块才能放到B砖块的上面，因为必须留有一些空间让猴子来踩。 你的任务是编写一个程序，计算猴子们最高可以堆出的砖块们的高度。">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-06-17T14:32:19.466Z">
+<meta property="og:updated_time" content="2019-06-18T04:43:45.138Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Wireless Network（POJ - 2236）">
-<meta name="twitter:description" content="#题解：有n台电脑，然后给出n台电脑的坐标，之后有q次操作（包括修复和询问），如果电脑 A 和电脑 B 可以直接通信，或存在一台电脑 C 既可与 A 也可与 B 通信，那么电脑 A 和电脑 B 之间就能够通信。">
+<meta name="twitter:title" content="Monkey and Banana（HDU - 1069）">
+<meta name="twitter:description" content="#题解：研究人员有n种类型的砖块，每种类型的砖块都有无限个。第i块砖块的长宽高分别用xi，yi，zi来表示。 同时，由于砖块是可以旋转的，每个砖块的3条边可以组成6种不同的长宽高。 在构建塔时，当且仅当A砖块的长和宽都分别小于B砖块的长和宽时，A砖块才能放到B砖块的上面，因为必须留有一些空间让猴子来踩。 你的任务是编写一个程序，计算猴子们最高可以堆出的砖块们的高度。">
 
 
 
@@ -115,7 +115,7 @@
 
   
   
-  <link rel="canonical" href="http://www.acmnightmare.com/2019/06/17/Wireless Network（POJ - 2236）/">
+  <link rel="canonical" href="http://www.acmnightmare.com/2019/06/18/Monkey and Banana HDU - 1069/">
 
 
 
@@ -125,7 +125,7 @@
   };
 </script>
 
-  <title>Wireless Network（POJ - 2236） | Nightmare</title>
+  <title>Monkey and Banana（HDU - 1069） | Nightmare</title>
   
 
 
@@ -341,7 +341,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://www.acmnightmare.com/2019/06/17/Wireless Network（POJ - 2236）/">
+    <link itemprop="mainEntityOfPage" href="http://www.acmnightmare.com/2019/06/18/Monkey and Banana HDU - 1069/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="acm_zrx">
@@ -358,7 +358,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">Wireless Network（POJ - 2236）
+          <h1 class="post-title" itemprop="name headline">Monkey and Banana（HDU - 1069）
 
               
             
@@ -384,7 +384,7 @@
                 
               
 
-              <time title="创建时间：2019-06-17 22:32:13 / 修改时间：22:32:19" itemprop="dateCreated datePublished" datetime="2019-06-17T22:32:13+08:00">2019-06-17</time>
+              <time title="创建时间：2019-06-18 12:43:41 / 修改时间：12:43:45" itemprop="dateCreated datePublished" datetime="2019-06-18T12:43:41+08:00">2019-06-18</time>
             
 
             
@@ -423,11 +423,12 @@
       
 
       
-        <p>#题解：有n台电脑，然后给出n台电脑的坐标，之后有q次操作（包括修复和询问），如果电脑 A 和电脑 B 可以直接通信，或存在一台电脑 C 既可与 A 也可与 B 通信，那么电脑 A 和电脑 B 之间就能够通信。</p>
+        <p>#题解：研究人员有n种类型的砖块，每种类型的砖块都有无限个。第i块砖块的长宽高分别用xi，yi，zi来表示。 同时，由于砖块是可以旋转的，每个砖块的3条边可以组成6种不同的长宽高。</p>
+<p>在构建塔时，当且仅当A砖块的长和宽都分别小于B砖块的长和宽时，A砖块才能放到B砖块的上面，因为必须留有一些空间让猴子来踩。</p>
+<p>你的任务是编写一个程序，计算猴子们最高可以堆出的砖块们的高度。</p>
 <a id="more"></a>
-<p>分析：典型的并查集的题目，加入看距离才能相互通信的约束，稍微更改就能AC</p>
-<p>代码：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br></pre></td><td class="code"><pre><span class="line">#include&lt;cstring&gt;</span><br><span class="line">#include&lt;cmath&gt;</span><br><span class="line">#include&lt;cstdio&gt;</span><br><span class="line">#include&lt;algorithm&gt;</span><br><span class="line">#include&lt;iostream&gt;</span><br><span class="line">using namespace std;</span><br><span class="line">struct point&#123;</span><br><span class="line">    int x,y;</span><br><span class="line">&#125;;</span><br><span class="line">int pre[1005]=&#123;0&#125;;</span><br><span class="line">int n;</span><br><span class="line">double d;</span><br><span class="line">bool check(int x1,int y1,int x2,int y2)</span><br><span class="line">&#123;</span><br><span class="line">    double dis=sqrt((x1-x2)*(x1-x2)+(y1-y2)*(y1-y2));</span><br><span class="line">    if(dis&lt;=d)</span><br><span class="line">        return 1;</span><br><span class="line">    else</span><br><span class="line">        return 0;</span><br><span class="line">&#125;</span><br><span class="line">int fin(int x)</span><br><span class="line">&#123;</span><br><span class="line">    if(pre[x]!=x)</span><br><span class="line">        pre[x]=fin(pre[x]);</span><br><span class="line">    return pre[x];</span><br><span class="line">&#125;</span><br><span class="line">void unite(int a,int b)</span><br><span class="line">&#123;</span><br><span class="line">    int x=fin(a);</span><br><span class="line">    int y=fin(b);</span><br><span class="line">    if(x!=y)</span><br><span class="line">    &#123;</span><br><span class="line">        pre[x]=y;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line">/*int init()</span><br><span class="line">&#123;</span><br><span class="line">    for(int i=0;i&lt;1005;i++)</span><br><span class="line">        pre[i]=0;</span><br><span class="line">&#125;*/</span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">    point pos[1005];</span><br><span class="line">    cin&gt;&gt;n&gt;&gt;d;</span><br><span class="line">    memset(pre,0,sizeof(pre));</span><br><span class="line">    //init();</span><br><span class="line">    for(int i=1;i&lt;=n;i++)</span><br><span class="line">    &#123;</span><br><span class="line">        cin&gt;&gt;pos[i].x&gt;&gt;pos[i].y;</span><br><span class="line">    &#125;</span><br><span class="line">    char temp;</span><br><span class="line">    while(cin&gt;&gt;temp)</span><br><span class="line">    &#123;</span><br><span class="line">        if(temp==&apos;O&apos;)</span><br><span class="line">        &#123;</span><br><span class="line">            int num;</span><br><span class="line">            cin&gt;&gt;num;</span><br><span class="line">            pre[num]=num;</span><br><span class="line">            for(int i=1;i&lt;=n;i++)</span><br><span class="line">            &#123;</span><br><span class="line">                if(i==num) continue;</span><br><span class="line">                if(check(pos[i].x,pos[i].y,pos[num].x,pos[num].y)==1 &amp;&amp; pre[i]!=0)</span><br><span class="line">                &#123;</span><br><span class="line">                    unite(i,num);</span><br><span class="line">                &#125;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        else if(temp==&apos;S&apos;)</span><br><span class="line">        &#123;</span><br><span class="line">            int a,b;</span><br><span class="line">            cin&gt;&gt;a&gt;&gt;b;</span><br><span class="line">            int x=fin(a);</span><br><span class="line">            int y=fin(b);</span><br><span class="line">            if(x==y)</span><br><span class="line">                cout&lt;&lt;&quot;SUCCESS&quot;&lt;&lt;endl;</span><br><span class="line">            else</span><br><span class="line">                cout&lt;&lt;&quot;FAIL&quot;&lt;&lt;endl;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>分析：每种砖块有6中堆法，最多有n&lt;=30个砖块，所有dp数组开到180足够，在这里我们用dp[i]表示以第i个木块为底的最大高度，显然dp[i]=第i个木块的高度+最大能重叠的高度，在求出dp数组以后，遍历一遍dp数组求出最大值就是我们的答案了。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br></pre></td><td class="code"><pre><span class="line">#include &lt;bits/stdc++.h&gt;</span><br><span class="line">using namespace std;</span><br><span class="line">typedef long long ll;</span><br><span class="line">const double eps=1e-9;</span><br><span class="line">#define inf 0x3f3f3f3f</span><br><span class="line">#define PI acos(-1)</span><br><span class="line">struct node&#123;</span><br><span class="line">	int x,y,z;</span><br><span class="line">&#125;stick[100];</span><br><span class="line">int cmp(node a,node b)&#123;</span><br><span class="line">	if(a.x==b.x)</span><br><span class="line">		return a.y&lt;b.y;</span><br><span class="line">	return a.x&lt;b.x;</span><br><span class="line">&#125;</span><br><span class="line">int dp[200];</span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">	int n,cnt=0;</span><br><span class="line">	while(scanf(&quot;%d&quot;,&amp;n) !=EOF)&#123;</span><br><span class="line">		if(n==0) return 0;</span><br><span class="line">		int k=0;</span><br><span class="line">		for(int i=0;i&lt;n;i++)&#123;</span><br><span class="line">			int a,b,c;</span><br><span class="line">			scanf(&quot;%d%d%d&quot;,&amp;a,&amp;b,&amp;c);</span><br><span class="line">			stick[k].x=a,stick[k].y=b,stick[k++].z=c;//每种木块有6中堆放方式</span><br><span class="line">			stick[k].x=a,stick[k].y=c,stick[k++].z=b;</span><br><span class="line">			stick[k].x=b,stick[k].y=a,stick[k++].z=c;</span><br><span class="line">			stick[k].x=b,stick[k].y=c,stick[k++].z=a;</span><br><span class="line">			stick[k].x=c,stick[k].y=a,stick[k++].z=b;</span><br><span class="line">			stick[k].x=c,stick[k].y=b,stick[k++].z=a;</span><br><span class="line">		&#125;</span><br><span class="line">		sort(stick,stick+k,cmp);//排序</span><br><span class="line">		dp[0]=stick[0].z;//最小的木块能叠的最大高度就是自己本身高度</span><br><span class="line">		int maxx;</span><br><span class="line">		for(int i=1;i&lt;k;i++)&#123;</span><br><span class="line">			maxx=0;</span><br><span class="line">			for(int j=0;j&lt;i;j++)&#123;</span><br><span class="line">				if(stick[j].x&lt;stick[i].x &amp;&amp; stick[j].y&lt;stick[i].y)&#123;</span><br><span class="line">					maxx = max(maxx,dp[j]);//求出每次能叠在第i个木块上面的最大高度</span><br><span class="line">				&#125;</span><br><span class="line">			&#125;</span><br><span class="line">			dp[i]=stick[i].z+maxx;//更新第i个木块为底的最大高度</span><br><span class="line">		&#125;</span><br><span class="line">		maxx=0;</span><br><span class="line">		for(int i=0;i&lt;k;i++)&#123;</span><br><span class="line">			maxx = max(maxx,dp[i]);//遍历求最大值</span><br><span class="line">		&#125;</span><br><span class="line">		printf(&quot;Case %d: maximum height = %d\n&quot;,++cnt,maxx);</span><br><span class="line">	&#125;</span><br><span class="line">	return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
       
     </div>
 
@@ -453,7 +454,7 @@
         
         <div class="post-tags">
           
-            <a href="/tags/并查集/" rel="tag"># 并查集</a>
+            <a href="/tags/基础dp/" rel="tag"># 基础dp</a>
           
         </div>
       
@@ -466,8 +467,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2019/06/17/Candies (POJ - 3159)/" rel="next" title="Candies （POJ - 3159 ）">
-                <i class="fa fa-chevron-left"></i> Candies （POJ - 3159 ）
+              <a href="/2019/06/17/Wireless Network（POJ - 2236）/" rel="next" title="Wireless Network（POJ - 2236）">
+                <i class="fa fa-chevron-left"></i> Wireless Network（POJ - 2236）
               </a>
             
           </div>
@@ -475,10 +476,6 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2019/06/18/Monkey and Banana HDU - 1069/" rel="prev" title="Monkey and Banana（HDU - 1069）">
-                Monkey and Banana（HDU - 1069） <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
